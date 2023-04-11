@@ -1,0 +1,118 @@
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+    padding: 10px 0;
+  }
+  
+  .about h3{
+    line-height: 35px;
+    font-size: 21px;
+    margin: 0 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #140047;
+}
+@media screen and (max-width:575px){
+  .about h3{
+     line-height: 24px;
+    font-size: 15px;
+    margin: 0 19px;
+  }
+}
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  .about ul li+li {
+    margin-top: 10px;
+  }
+  
+  .about ul li {
+    position: relative;
+    padding-left: 26px;
+  }
+  
+  .about ul i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 22px;
+    color: #140047;
+  }
+  
+  .about .icon-boxes {
+    padding-top: 10px;
+  }
+  
+  .about .icon-boxes h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  
+  .about .icon-boxes i {
+    font-size: 48px;
+    color: #140047;
+  }
+  
+  .about .icon-boxes p {
+    font-size: 15px;
+    color: #848484;
+  }
+
+
+
+  /* counts in WHAT MAKES US DIFFERENT part */
+
+  /*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+    background: white;
+    padding: 30px 0 40px 0;
+  }
+  
+  .counts .count-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .counts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    background: #200367;
+    padding: 12px;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #140047
+  }
+  
+  .counts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+  }
+  

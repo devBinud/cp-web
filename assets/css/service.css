@@ -1,0 +1,306 @@
+/*--------------------------------------------------------------
+# Our Services Section
+--------------------------------------------------------------*/
+
+body {
+    background-color:#fff;
+        }
+
+.card {
+    box-shadow:0 10px 15px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    transition:all 0.5s;
+    cursor:pointer;
+    min-height:380px;
+    text-align:center;
+}
+
+.card:hover{
+    border:1px solid rgb(143 86 190);
+    transition: 0.3s ease;
+}
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bold
+}
+
+.square {
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    margin-bottom:8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.email {
+    font-size: 14px;
+    margin-left: 0px;
+    font-weight: bold
+}
+.services_heading{
+    font-size:20px;
+    font-weight:500;
+    color:#140047;
+  }
+@media screen and (max-width:575px){
+   .services_heading{
+    font-size:17px;
+  }
+  }
+.dummytext {
+    font-size: 14px;
+    font-weight: normal;
+    color: #848590;
+    padding:10px;
+}
+
+.icons i {
+    color: #FA222A;
+    margin-left: 25px
+}
+
+
+.icons span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square1 {
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    align-items: center;
+    margin-bottom:8px;
+    justify-content: center
+}
+
+.icons1 i {
+    color: #497eea;
+    margin-left: 25px
+}
+
+.icons1 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square2 {
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    border-radius: 8px;
+    margin-bottom:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons2 i {
+    color: #ffc227;
+    margin-left: 25px
+}
+
+.icons2 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square5 {
+    background-color: #fff;
+    text-align:center;
+    margin-bottom:8px;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons5 i {
+    color: #41cfff;
+    margin-left: 25px
+}
+
+.icons5 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square4 {
+    background-color: #fff;
+   height: 50px;
+    width: 100%;
+    text-align:center;
+    border-radius: 8px;
+    margin-bottom:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icons4 i {
+    color: #6a35ff;
+    margin-left: 25px
+}
+
+.icons4 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+.square3 {
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    text-align:center;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom:8px;
+    align-items: center;
+    justify-content: center
+}
+
+.icons3 i {
+    color: #ff8339;
+    margin-left: 25px
+}
+
+.icons3 span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #848590
+}
+
+  /*--------------------------------------------------------------
+# Careers Page
+--------------------------------------------------------------*/
+
+.career .inner-page1 .showcase-right h1{
+	font-size:30px;
+	margin-bottom:20px;
+	font-weight: bold;
+	color: #140047;	
+}
+.career .inner-page1 .showcase-right a{
+	font-family: 'Poppins', sans-serif;font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 10px 28px 11px 28px;
+	border-radius: 50px;
+	margin: 10px 0 0 0;
+	color: #fff;
+	background: #140047;	
+}
+.career .inner-page1 .inner-page1-img{
+	margin-top: 30px;
+}
+.career .why{
+	background-color:#140047;
+	height:450px;
+	padding: 35px 0 35px;
+	position:relative;
+	margin-bottom:100px;
+}
+.career .inner-why{
+	position:absolute;
+	width:80%;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,10%);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(78, 115, 216, 0.2);
+	background: #fff;
+	border: 1px solid #140047;
+}
+.career .inner-why h5{
+	font-weight: bold;
+}
+.career .inner-why p{
+	text-align: justify;
+}
+
+
+@media screen and (max-width:575px){
+	.career .why{
+		height: auto;
+		margin-bottom:0px;
+	}
+	.career .inner-why{
+		position:relative;
+	}
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+	.career .why{
+		height: auto;
+		margin-bottom:0px;
+	}
+	.career .inner-why{
+		position:relative;
+	}	
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+	.career .why{
+		height: 600px;
+		margin-bottom:250px;
+	}	
+}
+@media screen and (min-width: 992px) {
+	.career .why{
+		height: 450px;
+		margin-bottom:190px;
+	}
+}
+.jobs-section{
+	padding-top: 0;
+}
+
+.jobs .accordion .accordion-item button {
+	background-color:#fff;
+	color:#140047;
+	font-weight: 600;
+	line-height: 2em;
+	border-left: 4px solid rgb(228, 228, 41);
+
+
+
+	font-size: 16px;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.jobs .accordion .accordion-item{
+	margin-bottom:20px;
+}
+.jobs .accordion .accordion-item .accordion-body h5{
+	margin: 20px 0 20px;
+	font-weight: 600;
+    color:#140047
+}
+.jobs .accordion .accordion-item .accordion-body p{
+	text-align: justify;
+}
+.jobs .accordion .accordion-item .accordion-body a{
+	color: #140047;
+    font-weight: 700;
+}	

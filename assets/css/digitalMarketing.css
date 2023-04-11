@@ -1,0 +1,177 @@
+/*--------------------------------------------------------------
+# Our Services Section
+--------------------------------------------------------------*/
+.services {
+    padding: 60px 0;
+  }
+  
+  .services .service-item {
+    padding: 40px;
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    border:1px outline #a79dc0;
+  }
+  
+  .services .service-item .icon {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .services .service-item .icon i {
+    color: #140047;
+    font-size: 56px;
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .services .service-item .icon:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #eeeeee;
+    border-radius: 50px;
+    z-index: 1;
+    top: 10px;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+  .services .service-item h3 {
+    color:#140047;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    padding-bottom: 8px;
+    font-size: 22px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 4px solid #eeeeee;
+    transition: 0.3s;
+  }
+  
+  .services .service-item p {
+    line-height: 26px;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  
+  .services .service-item:hover .icon:before {
+  background:#c3b4e7;
+  }
+  
+  .services .service-item:hover h3 {
+    border-color: #140047;
+  }
+
+  /*--------------------------------------------------------------
+# Careers Page
+--------------------------------------------------------------*/
+
+.career .inner-page1 .showcase-right h1{
+	font-size:30px;
+	margin-bottom:20px;
+	font-weight: bold;
+	color: #140047;	
+}
+.career .inner-page1 .showcase-right a{
+	font-family: 'Poppins', sans-serif;font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 10px 28px 11px 28px;
+	border-radius: 50px;
+	margin: 10px 0 0 0;
+	color: #fff;
+	background: #140047;	
+}
+.career .inner-page1 .inner-page1-img{
+	margin-top: 30px;
+}
+.career .why{
+	background-color:#140047;
+	height:450px;
+	padding: 35px 0 35px;
+	position:relative;
+	margin-bottom:100px;
+}
+.career .inner-why{
+	position:absolute;
+	width:80%;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,10%);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(78, 115, 216, 0.2);
+	background: #fff;
+	border: 1px solid #140047;
+}
+.career .inner-why h5{
+	font-weight: bold;
+}
+.career .inner-why p{
+	text-align: justify;
+}
+
+
+@media screen and (max-width:575px){
+	.career .why{
+		height: auto;
+		margin-bottom:0px;
+	}
+	.career .inner-why{
+		position:relative;
+	}
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+	.career .why{
+		height: auto;
+		margin-bottom:0px;
+	}
+	.career .inner-why{
+		position:relative;
+	}	
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+	.career .why{
+		height: 600px;
+		margin-bottom:250px;
+	}	
+}
+@media screen and (min-width: 992px) {
+	.career .why{
+		height: 450px;
+		margin-bottom:190px;
+	}
+}
+.jobs-section{
+	padding-top: 0;
+}
+
+.jobs .accordion .accordion-item button {
+	background-color:#fff;
+	color:#140047;
+	font-weight: 600;
+	line-height: 2em;
+	font-size: 70%;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.jobs .accordion .accordion-item{
+	margin-bottom:20px;
+}
+.jobs .accordion .accordion-item .accordion-body h5{
+	margin: 20px 0 20px;
+	font-weight: 600;
+    color:#140047
+}
+.jobs .accordion .accordion-item .accordion-body p{
+	text-align: justify;
+}
+.jobs .accordion .accordion-item .accordion-body a{
+	color: #140047;
+    font-weight: 700;
+}	
